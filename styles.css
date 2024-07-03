@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #3f3f3f;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #3f3f3f;
+}
+
+ul li a.active {
+  font-weight: bold;
+}
