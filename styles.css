@@ -1,23 +1,23 @@
-body {
+.body-style {
   font-family: Arial, sans-serif;
   color: #3f3f3f;
 }
 
-ul {
+.nav-list {
   display: flex;
   gap: 10px;
   margin: 20px;
 }
 
-ul li {
+.nav-item {
   list-style-type: none;
 }
 
-ul li a {
+.nav-link {
   text-decoration: none;
   color: #3f3f3f;
 }
 
-ul li a.active {
+.nav-link-active {
   font-weight: bold;
 }
